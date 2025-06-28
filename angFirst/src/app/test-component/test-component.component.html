@@ -1,0 +1,24 @@
+<p>test-component works! {{titleVar}}</p>
+
+<div class="{{classVar}}" >
+    Classvar
+
+    <div>
+
+    <input #taskInput placeholder="Enter task name"> 
+    <button>Click</button>
+    </div>
+
+    <h2>Zz</h2>
+
+    
+    <ul>
+    @for (user of users; track user ){
+         <li (click)="onGreet(user.name)"> @if (user.name ==="A1"){ {{user.name}} } @else { {{user.name}}  {{user.company.name }} }</li>    
+    }
+    </ul>
+
+    <h2>Zz</h2>
+
+    
+
