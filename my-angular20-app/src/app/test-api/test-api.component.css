@@ -1,0 +1,22 @@
+.workout-card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  justify-items: self-start;
+}
+
+.wrapper {
+    padding: 25px;
+    max-width: 60vw;
+    position: relative;
+}
+
+.cardif {
+    padding: 2em;
+    margin-left: 20px;
+}

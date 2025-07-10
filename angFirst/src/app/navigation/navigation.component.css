@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    gap: 25px;
+    background-color: beige;
+}
+
+.nav li{
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+

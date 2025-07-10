@@ -1,0 +1,37 @@
+<p>test-api works!</p>
+<div class="wrapper">
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+
+<!-- <div *ngIf="!loading && !error">
+  <h3>API Response:</h3>
+  <pre>{{ data | json }}</pre>
+</div> -->
+
+<div *ngIf="!loading && !error">
+  <h3>API Workouts</h3>
+
+<div class="cardif">
+
+<div *ngFor="let item of data" class="workout-card">
+    <div><h3>Workout ID: {{ item._id }}</h3></div>
+     <hr />
+    <div>
+    <p><strong>Type:</strong> {{ item.type }}</p>
+    <p><strong>Equipment:</strong> {{ item.equipment }}</p>
+    </div> <hr />
+        <div>
+          
+    <p><strong>Exercises:</strong></p>
+    <ul>
+      <li *ngFor="let ex of item.exercises">{{ ex.name }}</li>
+    </ul>
+    </div>
+    <hr />
+  </div>
+</div>
+</div>
+
+</div>
+
+

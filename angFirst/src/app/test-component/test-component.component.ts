@@ -18,12 +18,10 @@ import { Company } from './model/company.model';
 @Component({
   selector: 'app-nav',
   templateUrl: 'test-component.component.html',
-  styles: [
- 
-  ],
+  styleUrl: "test-component.component.css",
 })
-export class NavComponent {
-  titleVar = 'navigation var Works';
+export class TestComponent {
+  titleVar = 'test comp  Works';
   classVar = "new";
   idVar = 'id';
   users: User[] = [{
@@ -43,6 +41,13 @@ export class NavComponent {
     }
   }]
 
+  newUser: Partial<User> = {
+    name: '',
+    age: undefined,
+    company: { id: 0, name: '' }
+  };
+
+
 
 
   constructor() {
@@ -50,11 +55,21 @@ export class NavComponent {
 }
 
 
+
+  
+
+
 onGreet(name: string){
     console.log(`Hello ${name}` )
 
+}
 
+addTask(taskName: string): void {
+  console.log('Task:', taskName);
+  // You can now use taskName to add to a list, send to API, etc.
 }
 
 };
+
+
 

@@ -1,0 +1,10 @@
+<p>test-api works!</p>
+
+
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+
+<div *ngIf="!loading && !error">
+  <h3>Response:</h3>
+  <pre>{{ data | json }}</pre>
+</div>

@@ -6,15 +6,22 @@
     <div>
 
     <input #taskInput placeholder="Enter task name"> 
-    <button>Click</button>
-    </div>
+    <button (click)="addTask(taskInput.value)">Click</button>    </div>
 
     <h2>Zz</h2>
+
+
+
+    
 
     
     <ul>
     @for (user of users; track user ){
-         <li (click)="onGreet(user.name)"> @if (user.name ==="A1"){ {{user.name}} } @else { {{user.name}}  {{user.company.name }} }</li>    
+         <li (click)="onGreet(user.name)"> 
+            @if (user.name ==="A1"){ {{user.name}} } 
+            @else { 
+                {{user.name}}  {{user.company.name }} 
+            }</li>    
     }
     </ul>
 
