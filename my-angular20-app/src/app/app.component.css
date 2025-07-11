@@ -1,0 +1,10 @@
+
+
+@import './styles/bootstrap.min.css';
+@import './styles/style.css';
+@import '../assets/lib/owlcarousel/assets/owl.carousel.min.css';
+@import '../assets/lib/animate/animate.min.css'; 
+
+body {
+  background-color: lime !important;
+}

@@ -20,16 +20,24 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+"assets": [
+  "src/assets",
+  "src/favicon.ico"
+]
+            ,
+          "styles": [
+             "src/assets/lib/animate/animate.min.css",
+  "src/assets/lib/owlcarousel/assets/owl.carousel.min.css",
+  "src/assets/css/style.css"
+
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            "scripts": [
+              "src/assets/lib/owlcarousel/owl.carousel.min.js",
+  "src/assets/lib/wow/wow.min.js",
+  "src/assets/lib/easing/easing.min.js",
+  "src/assets/lib/waypoints/waypoints.min.js",
+  "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -73,22 +81,30 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
+            "outputPath": "dist/my-angular20-app",
+            "index": "src/index.html",
+            "main": "src/main.ts",
             "polyfills": [
-              "zone.js",
-              "zone.js/testing"
+              "zone.js"
             ],
-            "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
-          }
+  "tsConfig": "tsconfig.app.json",
+  "assets": [
+    "src/favicon.ico",
+    "src/assets"
+  ],
+  "styles": [
+  "src/styles.css"
+   ],
+  "scripts": [
+      "src/assets/js/main.js",
+        "src/assets/lib/owlcarousel/owl.carousel.min.js",
+    "src/assets/lib/wow/wow.min.js",
+    "src/assets/lib/easing/easing.min.js",
+    "src/assets/lib/waypoints/waypoints.min.js",
+    "src/assets/js/main.js"
+
+  ]
+}
         }
       }
     }
