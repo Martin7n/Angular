@@ -440,7 +440,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    /* background: linear-gradient(rgba(12, 24, 68, 0.7), rgba(12, 24, 68, 0.7)), url(/images/goal-background-img.jpg); */
+    background: linear-gradient(rgba(12, 24, 68, 0.7), rgba(12, 24, 68, 0.7)), url(../images/goal-background-img.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -460,7 +460,7 @@
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
-    /* background-image: url(../images/carousel-1.jpg); */
+    background-image: url(../images/carousel-1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -473,7 +473,7 @@
 }
 
 .hero-bg-half-1 {
-    /* background-image: url(../images/header-2.jpg); */
+    background-image: url(../images/header-2.jpg);
     clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
     filter: grayscale(15%);
     transform: scale(100% - 50%);
@@ -488,7 +488,7 @@
 }
 
 .hero-bg-half-2 {
-    /* background-image: url(../images/header-1.jpg); */
+    background-image: url(../images/header-1.jpg);
     clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
     filter: grayscale(15%);
     transform: scale(100% - 50%);
@@ -504,7 +504,7 @@
 
 @media (max-width: 991px) {
     .hero-bg-half-1 {
-        /* background-image: url(../images/header-2.jpg); */
+        background-image: url(../images/header-2.jpg);
         clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
         filter: grayscale(0%);
         transform: scale(100% - 0%);
@@ -519,7 +519,7 @@
     }
 
     .hero-bg-half-2 {
-        /* background-image: url(../images/header-1.jpg); */
+        background-image: url(../images/header-1.jpg);
         clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
         filter: grayscale(0%);
         transform: scale(100% - 0%);
@@ -667,7 +667,7 @@
 .goal {
     position: relative;
     overflow: hidden;
-    /* background: linear-gradient(rgba(255, 245, 225, 0.9), rgba(12, 24, 68, 0.9)), url(../images/goal-background-img.jpg); */
+    background: linear-gradient(rgba(255, 245, 225, 0.9), rgba(12, 24, 68, 0.9)), url(../images/goal-background-img.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -835,7 +835,7 @@
 .courses {
     position: relative;
     overflow: hidden;
-    /* background: linear-gradient(rgba(12, 24, 68, 0.7), rgba(12, 24, 68, 0.7)), url(../images/services-img.jpg); */
+    background: linear-gradient(rgba(12, 24, 68, 0.7), rgba(12, 24, 68, 0.7)), url(../images/services-img.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1063,7 +1063,7 @@
 .explore {
     position: relative;
     overflow: hidden;
-    /* background: linear-gradient(rgba(12, 24, 68, 0.7), rgba(12, 24, 68, 0.7)), url(../images/services-img.jpg); */
+    background: linear-gradient(rgba(12, 24, 68, 0.7), rgba(12, 24, 68, 0.7)), url(../images/services-img.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1172,7 +1172,7 @@
 .testimonial {
     position: relative;
     overflow: hidden;
-    /* background: linear-gradient(rgba(12, 24, 68, 0.9), rgba(12, 24, 68, 0.9)), url(../images/services-img.jpg); */
+    background: linear-gradient(rgba(12, 24, 68, 0.9), rgba(12, 24, 68, 0.9)), url(../images/services-img.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1263,7 +1263,7 @@
     height: 100%;
     bottom: 0;
     right: 0;
-    /* background-image: url(../images/contact-banner.png); */
+    background-image: url(../images/contact-banner.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1284,7 +1284,7 @@
 /*** Footer Start ***/
 .footer {
     overflow: hidden;
-    /* background: linear-gradient(rgba(12, 24, 68, 0.9), rgba(12, 24, 68, 0.98)), url(../images/services-img.jpg); */
+    background: linear-gradient(rgba(12, 24, 68, 0.9), rgba(12, 24, 68, 0.98)), url(../images/services-img.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1359,7 +1359,6 @@
     background: var(--bs-dark);
 }
 /*** copyright end ***/
-
 
 
 
