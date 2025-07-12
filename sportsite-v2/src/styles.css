@@ -101,3 +101,15 @@ button:focus-visible {
   }
 }
 
+
+body, app-root, main, router-outlet {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+router-outlet + * {
+  display: block;
+  width: 100%;
+}
+

@@ -72,15 +72,13 @@
 
 
 <p>✅ App is loaded</p>
-<app-navigation/>
-<app-section-one-content></app-section-one-content>
+<app-navigation></app-navigation>
 
-
-
-
+ 
+<main class="w-full px-4 md:px-8">
+  <!-- Conditional views loaded here -->
+  <router-outlet></router-outlet>
+</main>>
 
 <app-main-content></app-main-content>
-<app-test-api></app-test-api>
-
-  <app-footer></app-footer>
-<router-outlet />
+<app-footer></app-footer>

@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+#menu-toggle:checked + #menu {
+  display: block;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -19,7 +19,7 @@
 
 a {
   font-weight: 500;
-  color: #67698a;
+  color: #20212c;
   text-decoration: inherit;
 }
 a:hover {
