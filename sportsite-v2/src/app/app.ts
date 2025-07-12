@@ -10,9 +10,9 @@ import { SectionOneContent } from './section-one-content/section-one-content';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, 
-          TestApiComponent, NavigationComponent, 
-          SecondNew, FooterComponent, 
-          MainContent, SectionOneContent],
+           NavigationComponent, 
+           FooterComponent, 
+          MainContent],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
