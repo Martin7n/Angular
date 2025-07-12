@@ -1,4 +1,4 @@
-.nav {
+/* .nav {
     display: flex;
     gap: 25px;
     background-color: beige;
@@ -8,5 +8,166 @@
     list-style-type: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+} */
+
+
+
+
+
+.header-top {
+  background: linear-gradient(135deg, #111111, #1f1f1f);
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 999;
+}
+
+.nav-bar {
+  background-color: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-nav .nav-link {
+  color: #ccc;
+  padding: 0.75rem 1.25rem;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #00bcd4;
+  border-bottom: 2px solid #00bcd4;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.navbar-brand h1,
+.navbar-brand-2 h1 {
+  font-size: 1.8rem;
+  color: #00bcd4;
+}
+
+.dropdown-menu {
+  background-color: #1a1a1a;
+  border: none;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+.dropdown-item {
+  color: #ccc;
+  padding: 0.5rem 1.5rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #00bcd4, #007c91);
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #007c91, #00bcd4);
+  color: #fff;
+}
+
+
+
+
+/* modal serarch --->>>> for component */
+
+
+/* Modal Overlay Background */
+.modal-content {
+  background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  border-radius: 0;
+}
+
+/* Modal Header */
+.modal-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #1f1f1f;
+  color: #00bcd4;
+}
+
+.modal-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* Close Button */
+.btn-close {
+  filter: invert(1); /* makes the close icon white */
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.btn-close:hover {
+  opacity: 1;
+}
+
+/* Modal Body Background (Optional override if bg-primary used) */
+.modal-body {
+  background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+}
+
+/* Search Input Group */
+.input-group .form-control {
+  background-color: #121212;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 0;
+}
+
+.input-group .form-control::placeholder {
+  color: #aaa;
+}
+
+.input-group .btn,
+.input-group-text {
+  background: linear-gradient(to right, #00bcd4, #007c91);
+  color: white;
+  border: none;
+  transition: background 0.3s;
+}
+
+.input-group .btn:hover,
+.input-group-text:hover {
+  background: linear-gradient(to right, #007c91, #00bcd4);
+}
+
+/* Optional: input field focus effect */
+.input-group .form-control:focus {
+  border-color: #00bcd4;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.4);
+}
+
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .nav-btn {
+    justify-content: center;
+    margin-top: 1rem;
+  }
 }
 
