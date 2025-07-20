@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { MainContentComponent } from '../main-content/main-content';
 
 
 @Component({
   selector: 'app-section-one-content',
   standalone: true,
-  imports: [],
+  imports: [MainContentComponent  ],
   templateUrl: './section-one-content.html',
   styleUrl: './section-one-content.css'
 })
