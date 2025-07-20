@@ -5,9 +5,9 @@
 
 import { Routes } from '@angular/router';
 import { SectionOneContent } from './section-one-content/section-one-content';
-import { TestApiComponent } from './test-api/test-api.component';
+import { WorkoutApiComponent } from './workout-api/workout-api.component';
 
 export const routes: Routes = [
   { path: '', component: SectionOneContent },   // default route
-  { path: 'test-api', component: TestApiComponent },      // test api route
+  { path: 'workouts', component: WorkoutApiComponent },      // workout api route
 ];

@@ -13,7 +13,7 @@ export class SectionOneContent {
   constructor(private router: Router) {}
 
   goToTestApi(): void {
-    this.router.navigate(['/test-api']);
+    this.router.navigate(['/workouts']);
   }
 
 }

@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MyDataService } from '../services/my-data.service';
+import { MyDataService } from '../core/services/my-data.service';
 
 @Component({
-  selector: 'app-test-api',
+  selector: 'workout-api',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './test-api.component.html',
-  styleUrls: ['./test-api.component.css']
+  templateUrl: './workout-api.component.html',
+  styleUrls: ['./workout-api.component.css']
 })
-export class TestApiComponent implements OnInit {
+export class WorkoutApiComponent implements OnInit {
   data: any;
   loading = true;
   error = '';

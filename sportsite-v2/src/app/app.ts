@@ -1,10 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavigationComponent } from './navigation/navigation.component';
-import { SecondNew } from './second-new/second-new';
-import { TestApiComponent } from './test-api/test-api.component';
+import {  WorkoutApiComponent } from './workout-api/workout-api.component';
 import { FooterComponent } from './footer/footer.component';
-import { MainContent } from './main-content/main-content';
+import {  MainContentComponent } from './main-content/main-content';
 import { SectionOneContent } from './section-one-content/section-one-content';
 
 @Component({
@@ -12,7 +11,8 @@ import { SectionOneContent } from './section-one-content/section-one-content';
   imports: [RouterOutlet, 
            NavigationComponent, 
            FooterComponent, 
-          MainContent],
+           MainContentComponent,
+           WorkoutApiComponent],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
