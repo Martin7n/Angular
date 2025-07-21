@@ -5,6 +5,9 @@ import {  WorkoutApiComponent } from './workout-api/workout-api.component';
 import { FooterComponent } from './footer/footer.component';
 import {  MainContentComponent } from './main-content/main-content';
 import { SectionOneContent } from './section-one-content/section-one-content';
+import { RegisterComponent } from './register/register';
+import { LoginComponent } from './login-component/login-component';
+
 
 @Component({
   selector: 'app-root',
@@ -12,7 +15,9 @@ import { SectionOneContent } from './section-one-content/section-one-content';
            NavigationComponent, 
            FooterComponent, 
            MainContentComponent,
-           WorkoutApiComponent],
+           WorkoutApiComponent,
+          RegisterComponent,
+        LoginComponent],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
